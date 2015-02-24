@@ -13,18 +13,7 @@
 		F8B02A181A9D131600C4B91A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A161A9D131600C4B91A /* Main.storyboard */; };
 		F8B02A1A1A9D131600C4B91A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A191A9D131600C4B91A /* Images.xcassets */; };
 		F8B02A1D1A9D131600C4B91A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A1B1A9D131600C4B91A /* LaunchScreen.xib */; };
-		F8B02A291A9D131600C4B91A /* AssetCrazinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B02A281A9D131600C4B91A /* AssetCrazinessTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F8B02A231A9D131600C4B91A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F8B02A011A9D131600C4B91A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F8B02A081A9D131600C4B91A;
-			remoteInfo = AssetCraziness;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F8B02A091A9D131600C4B91A /* AssetCraziness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetCraziness.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,10 @@
 		F8B02A171A9D131600C4B91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8B02A191A9D131600C4B91A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F8B02A1C1A9D131600C4B91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F8B02A221A9D131600C4B91A /* AssetCrazinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetCrazinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8B02A271A9D131600C4B91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8B02A281A9D131600C4B91A /* AssetCrazinessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetCrazinessTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F8B02A061A9D131600C4B91A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8B02A1F1A9D131600C4B91A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				F8B02A0B1A9D131600C4B91A /* AssetCraziness */,
-				F8B02A251A9D131600C4B91A /* AssetCrazinessTests */,
 				F8B02A0A1A9D131600C4B91A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				F8B02A091A9D131600C4B91A /* AssetCraziness.app */,
-				F8B02A221A9D131600C4B91A /* AssetCrazinessTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +79,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F8B02A251A9D131600C4B91A /* AssetCrazinessTests */ = {
-			isa = PBXGroup;
-			children = (
-				F8B02A281A9D131600C4B91A /* AssetCrazinessTests.m */,
-				F8B02A261A9D131600C4B91A /* Supporting Files */,
-			);
-			path = AssetCrazinessTests;
-			sourceTree = "<group>";
-		};
-		F8B02A261A9D131600C4B91A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8B02A271A9D131600C4B91A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,24 +99,6 @@
 			productReference = F8B02A091A9D131600C4B91A /* AssetCraziness.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8B02A211A9D131600C4B91A /* AssetCrazinessTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8B02A2F1A9D131600C4B91A /* Build configuration list for PBXNativeTarget "AssetCrazinessTests" */;
-			buildPhases = (
-				F8B02A1E1A9D131600C4B91A /* Sources */,
-				F8B02A1F1A9D131600C4B91A /* Frameworks */,
-				F8B02A201A9D131600C4B91A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8B02A241A9D131600C4B91A /* PBXTargetDependency */,
-			);
-			name = AssetCrazinessTests;
-			productName = AssetCrazinessTests;
-			productReference = F8B02A221A9D131600C4B91A /* AssetCrazinessTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +110,6 @@
 				TargetAttributes = {
 					F8B02A081A9D131600C4B91A = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					F8B02A211A9D131600C4B91A = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = F8B02A081A9D131600C4B91A;
 					};
 				};
 			};
@@ -189,7 +127,6 @@
 			projectRoot = "";
 			targets = (
 				F8B02A081A9D131600C4B91A /* AssetCraziness */,
-				F8B02A211A9D131600C4B91A /* AssetCrazinessTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +139,6 @@
 				F8B02A181A9D131600C4B91A /* Main.storyboard in Resources */,
 				F8B02A1D1A9D131600C4B91A /* LaunchScreen.xib in Resources */,
 				F8B02A1A1A9D131600C4B91A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8B02A201A9D131600C4B91A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8B02A1E1A9D131600C4B91A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8B02A291A9D131600C4B91A /* AssetCrazinessTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F8B02A241A9D131600C4B91A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F8B02A081A9D131600C4B91A /* AssetCraziness */;
-			targetProxy = F8B02A231A9D131600C4B91A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F8B02A161A9D131600C4B91A /* Main.storyboard */ = {
@@ -359,40 +273,6 @@
 			};
 			name = Release;
 		};
-		F8B02A301A9D131600C4B91A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AssetCrazinessTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssetCraziness.app/AssetCraziness";
-			};
-			name = Debug;
-		};
-		F8B02A311A9D131600C4B91A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AssetCrazinessTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssetCraziness.app/AssetCraziness";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,14 +290,6 @@
 			buildConfigurations = (
 				F8B02A2D1A9D131600C4B91A /* Debug */,
 				F8B02A2E1A9D131600C4B91A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F8B02A2F1A9D131600C4B91A /* Build configuration list for PBXNativeTarget "AssetCrazinessTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8B02A301A9D131600C4B91A /* Debug */,
-				F8B02A311A9D131600C4B91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
