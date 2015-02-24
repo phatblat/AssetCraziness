@@ -17,6 +17,13 @@
 		F8B02A3F1A9D138A00C4B91A /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B02A3E1A9D138A00C4B91A /* TodayViewController.m */; };
 		F8B02A411A9D138A00C4B91A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A401A9D138A00C4B91A /* MainInterface.storyboard */; };
 		F8B02A441A9D138A00C4B91A /* AssetToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8B02A361A9D138A00C4B91A /* AssetToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8B02A541A9D13CC00C4B91A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B02A531A9D13CC00C4B91A /* InterfaceController.m */; };
+		F8B02A571A9D13CC00C4B91A /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B02A561A9D13CC00C4B91A /* NotificationController.m */; };
+		F8B02A591A9D13CC00C4B91A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A581A9D13CC00C4B91A /* Images.xcassets */; };
+		F8B02A5D1A9D13CC00C4B91A /* AssetCraziness WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A5C1A9D13CC00C4B91A /* AssetCraziness WatchKit App.app */; };
+		F8B02A651A9D13CC00C4B91A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A631A9D13CC00C4B91A /* Interface.storyboard */; };
+		F8B02A671A9D13CC00C4B91A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A661A9D13CC00C4B91A /* Images.xcassets */; };
+		F8B02A6A1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8B02A4D1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = F8B02A351A9D138A00C4B91A;
 			remoteInfo = AssetToday;
+		};
+		F8B02A5E1A9D13CC00C4B91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B02A011A9D131600C4B91A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B02A5B1A9D13CC00C4B91A;
+			remoteInfo = "AssetCraziness WatchKit App";
+		};
+		F8B02A681A9D13CC00C4B91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B02A011A9D131600C4B91A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B02A4C1A9D13CC00C4B91A;
+			remoteInfo = "AssetCraziness WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -37,6 +58,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				F8B02A441A9D138A00C4B91A /* AssetToday.appex in Embed App Extensions */,
+				F8B02A6A1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +82,18 @@
 		F8B02A3D1A9D138A00C4B91A /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		F8B02A3E1A9D138A00C4B91A /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		F8B02A401A9D138A00C4B91A /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		F8B02A4D1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AssetCraziness WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B02A501A9D13CC00C4B91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B02A511A9D13CC00C4B91A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F8B02A521A9D13CC00C4B91A /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		F8B02A531A9D13CC00C4B91A /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		F8B02A551A9D13CC00C4B91A /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		F8B02A561A9D13CC00C4B91A /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		F8B02A581A9D13CC00C4B91A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8B02A5C1A9D13CC00C4B91A /* AssetCraziness WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AssetCraziness WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B02A621A9D13CC00C4B91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B02A641A9D13CC00C4B91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F8B02A661A9D13CC00C4B91A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +112,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8B02A4A1A9D13CC00C4B91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +127,8 @@
 			children = (
 				F8B02A0B1A9D131600C4B91A /* AssetCraziness */,
 				F8B02A3A1A9D138A00C4B91A /* AssetToday */,
+				F8B02A4E1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension */,
+				F8B02A601A9D13CC00C4B91A /* AssetCraziness WatchKit App */,
 				F8B02A371A9D138A00C4B91A /* Frameworks */,
 				F8B02A0A1A9D131600C4B91A /* Products */,
 			);
@@ -96,6 +139,8 @@
 			children = (
 				F8B02A091A9D131600C4B91A /* AssetCraziness.app */,
 				F8B02A361A9D138A00C4B91A /* AssetToday.appex */,
+				F8B02A4D1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension.appex */,
+				F8B02A5C1A9D13CC00C4B91A /* AssetCraziness WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +196,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F8B02A4E1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F8B02A521A9D13CC00C4B91A /* InterfaceController.h */,
+				F8B02A531A9D13CC00C4B91A /* InterfaceController.m */,
+				F8B02A551A9D13CC00C4B91A /* NotificationController.h */,
+				F8B02A561A9D13CC00C4B91A /* NotificationController.m */,
+				F8B02A581A9D13CC00C4B91A /* Images.xcassets */,
+				F8B02A4F1A9D13CC00C4B91A /* Supporting Files */,
+			);
+			path = "AssetCraziness WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F8B02A4F1A9D13CC00C4B91A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B02A501A9D13CC00C4B91A /* Info.plist */,
+				F8B02A511A9D13CC00C4B91A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8B02A601A9D13CC00C4B91A /* AssetCraziness WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F8B02A631A9D13CC00C4B91A /* Interface.storyboard */,
+				F8B02A661A9D13CC00C4B91A /* Images.xcassets */,
+				F8B02A611A9D13CC00C4B91A /* Supporting Files */,
+			);
+			path = "AssetCraziness WatchKit App";
+			sourceTree = "<group>";
+		};
+		F8B02A611A9D13CC00C4B91A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B02A621A9D13CC00C4B91A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +252,7 @@
 			);
 			dependencies = (
 				F8B02A431A9D138A00C4B91A /* PBXTargetDependency */,
+				F8B02A691A9D13CC00C4B91A /* PBXTargetDependency */,
 			);
 			name = AssetCraziness;
 			productName = AssetCraziness;
@@ -190,6 +276,39 @@
 			productReference = F8B02A361A9D138A00C4B91A /* AssetToday.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		F8B02A4C1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B02A6E1A9D13CC00C4B91A /* Build configuration list for PBXNativeTarget "AssetCraziness WatchKit Extension" */;
+			buildPhases = (
+				F8B02A491A9D13CC00C4B91A /* Sources */,
+				F8B02A4A1A9D13CC00C4B91A /* Frameworks */,
+				F8B02A4B1A9D13CC00C4B91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B02A5F1A9D13CC00C4B91A /* PBXTargetDependency */,
+			);
+			name = "AssetCraziness WatchKit Extension";
+			productName = "AssetCraziness WatchKit Extension";
+			productReference = F8B02A4D1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		F8B02A5B1A9D13CC00C4B91A /* AssetCraziness WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B02A6B1A9D13CC00C4B91A /* Build configuration list for PBXNativeTarget "AssetCraziness WatchKit App" */;
+			buildPhases = (
+				F8B02A5A1A9D13CC00C4B91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AssetCraziness WatchKit App";
+			productName = "AssetCraziness WatchKit App";
+			productReference = F8B02A5C1A9D13CC00C4B91A /* AssetCraziness WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,6 +322,12 @@
 						CreatedOnToolsVersion = 6.2;
 					};
 					F8B02A351A9D138A00C4B91A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F8B02A4C1A9D13CC00C4B91A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F8B02A5B1A9D13CC00C4B91A = {
 						CreatedOnToolsVersion = 6.2;
 					};
 				};
@@ -222,6 +347,8 @@
 			targets = (
 				F8B02A081A9D131600C4B91A /* AssetCraziness */,
 				F8B02A351A9D138A00C4B91A /* AssetToday */,
+				F8B02A4C1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension */,
+				F8B02A5B1A9D13CC00C4B91A /* AssetCraziness WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +369,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B02A411A9D138A00C4B91A /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B02A4B1A9D13CC00C4B91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B02A5D1A9D13CC00C4B91A /* AssetCraziness WatchKit App.app in Resources */,
+				F8B02A591A9D13CC00C4B91A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B02A5A1A9D13CC00C4B91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B02A651A9D13CC00C4B91A /* Interface.storyboard in Resources */,
+				F8B02A671A9D13CC00C4B91A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +411,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8B02A491A9D13CC00C4B91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B02A571A9D13CC00C4B91A /* NotificationController.m in Sources */,
+				F8B02A541A9D13CC00C4B91A /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -273,6 +427,16 @@
 			isa = PBXTargetDependency;
 			target = F8B02A351A9D138A00C4B91A /* AssetToday */;
 			targetProxy = F8B02A421A9D138A00C4B91A /* PBXContainerItemProxy */;
+		};
+		F8B02A5F1A9D13CC00C4B91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B02A5B1A9D13CC00C4B91A /* AssetCraziness WatchKit App */;
+			targetProxy = F8B02A5E1A9D13CC00C4B91A /* PBXContainerItemProxy */;
+		};
+		F8B02A691A9D13CC00C4B91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B02A4C1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension */;
+			targetProxy = F8B02A681A9D13CC00C4B91A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -291,6 +455,14 @@
 				F8B02A1C1A9D131600C4B91A /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F8B02A631A9D13CC00C4B91A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8B02A641A9D13CC00C4B91A /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +588,60 @@
 			};
 			name = Release;
 		};
+		F8B02A6C1A9D13CC00C4B91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = AssetCraziness_WatchKit_Extension;
+				INFOPLIST_FILE = "AssetCraziness WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		F8B02A6D1A9D13CC00C4B91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = AssetCraziness_WatchKit_Extension;
+				INFOPLIST_FILE = "AssetCraziness WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		F8B02A6F1A9D13CC00C4B91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AssetCraziness WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8B02A701A9D13CC00C4B91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AssetCraziness WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -441,6 +667,22 @@
 			buildConfigurations = (
 				F8B02A461A9D138A00C4B91A /* Debug */,
 				F8B02A471A9D138A00C4B91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8B02A6B1A9D13CC00C4B91A /* Build configuration list for PBXNativeTarget "AssetCraziness WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B02A6C1A9D13CC00C4B91A /* Debug */,
+				F8B02A6D1A9D13CC00C4B91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8B02A6E1A9D13CC00C4B91A /* Build configuration list for PBXNativeTarget "AssetCraziness WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B02A6F1A9D13CC00C4B91A /* Debug */,
+				F8B02A701A9D13CC00C4B91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
