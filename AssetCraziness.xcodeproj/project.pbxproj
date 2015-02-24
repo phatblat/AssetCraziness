@@ -24,6 +24,7 @@
 		F8B02A651A9D13CC00C4B91A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A631A9D13CC00C4B91A /* Interface.storyboard */; };
 		F8B02A671A9D13CC00C4B91A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A661A9D13CC00C4B91A /* Images.xcassets */; };
 		F8B02A6A1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8B02A4D1A9D13CC00C4B91A /* AssetCraziness WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8B02A721A9D149800C4B91A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A711A9D149800C4B91A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		F8B02A621A9D13CC00C4B91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8B02A641A9D13CC00C4B91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		F8B02A661A9D13CC00C4B91A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8B02A711A9D149800C4B91A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 				F8B02A3E1A9D138A00C4B91A /* TodayViewController.m */,
 				F8B02A401A9D138A00C4B91A /* MainInterface.storyboard */,
 				F8B02A3B1A9D138A00C4B91A /* Supporting Files */,
+				F8B02A711A9D149800C4B91A /* Images.xcassets */,
 			);
 			path = AssetToday;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B02A411A9D138A00C4B91A /* MainInterface.storyboard in Resources */,
+				F8B02A721A9D149800C4B91A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
