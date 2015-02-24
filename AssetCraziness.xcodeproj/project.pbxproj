@@ -19,7 +19,6 @@
 		F8B02A441A9D138A00C4B91A /* AssetToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8B02A361A9D138A00C4B91A /* AssetToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F8B02A541A9D13CC00C4B91A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B02A531A9D13CC00C4B91A /* InterfaceController.m */; };
 		F8B02A571A9D13CC00C4B91A /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B02A561A9D13CC00C4B91A /* NotificationController.m */; };
-		F8B02A591A9D13CC00C4B91A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A581A9D13CC00C4B91A /* Images.xcassets */; };
 		F8B02A5D1A9D13CC00C4B91A /* AssetCraziness WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A5C1A9D13CC00C4B91A /* AssetCraziness WatchKit App.app */; };
 		F8B02A651A9D13CC00C4B91A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A631A9D13CC00C4B91A /* Interface.storyboard */; };
 		F8B02A671A9D13CC00C4B91A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B02A661A9D13CC00C4B91A /* Images.xcassets */; };
@@ -90,7 +89,6 @@
 		F8B02A531A9D13CC00C4B91A /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
 		F8B02A551A9D13CC00C4B91A /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
 		F8B02A561A9D13CC00C4B91A /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
-		F8B02A581A9D13CC00C4B91A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F8B02A5C1A9D13CC00C4B91A /* AssetCraziness WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AssetCraziness WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B02A621A9D13CC00C4B91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8B02A641A9D13CC00C4B91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 				F8B02A531A9D13CC00C4B91A /* InterfaceController.m */,
 				F8B02A551A9D13CC00C4B91A /* NotificationController.h */,
 				F8B02A561A9D13CC00C4B91A /* NotificationController.m */,
-				F8B02A581A9D13CC00C4B91A /* Images.xcassets */,
 				F8B02A4F1A9D13CC00C4B91A /* Supporting Files */,
 			);
 			path = "AssetCraziness WatchKit Extension";
@@ -381,7 +378,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B02A5D1A9D13CC00C4B91A /* AssetCraziness WatchKit App.app in Resources */,
-				F8B02A591A9D13CC00C4B91A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
